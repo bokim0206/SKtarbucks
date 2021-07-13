@@ -367,7 +367,6 @@ kubectl label namespace skcc04-ns istio-injection=enabled
 - 동시사용자 100명
 - 60초 동안 실시
 
-<수정>
 ```
 $siege -c100 -t60S -r10  -v http://ac8964ea2ef644fb083721500a8e7f07-1903719250.ap-northeast-1.elb.amazonaws.com:8080/cafes 
 HTTP/1.1 200     0.15 secs:     243 bytes ==> GET  /cafes
