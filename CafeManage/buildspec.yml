@@ -2,11 +2,11 @@ version: 0.2
 
 env:
   variables:
-    _PROJECT_NAME: "cafe" 
-    _ECR_NAME: "user04"
-    _NAMESPACE: "skcc04-ns"
-    _AWS_REGION: "ap-northeast-1" 
-
+     _PROJECT_NAME: "user07-rental" 
+     _ECR_NAME: "user07-rentals" 
+     _NAMESPACE: "user07-ns"
+     _AWS_REGION: "us-east-2"     
+     
 phases:
   install:
     runtime-versions:
